@@ -14,13 +14,11 @@ body {
 h1 {
   color: #d67100;
   text-align: center;
-  font-size: 10px;
 }
 
 h2 {
   color: #d67100;
   text-align: center;
-  font-size: 5px;
 }
 
 p{
@@ -34,16 +32,44 @@ p{
 }
 
 .video-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  gap: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap;
 }
 
-.video-border-div {
-  border: 4px solid #d67100;
+.video-box {
+    border: 4px solid #d67100;
+    background-color: #d67100;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.55) 5px 5px 0px;
+}
+
+.video-box iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
+
+.sidenav {
   background-color: #d67100;
-  padding: 5px;
-  box-shadow: rgba(0, 0, 0, 0.548) 5px 5px 0px;
+}
+
+.sidenav li a {
+  color: white;
+}
+
+@media (min-width: 1200px) {
+    .video-box {
+        width: calc(33.333% - 20px);
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .video-box {
+        width: 100%;
+        max-width: 560px;
+    }
 }
