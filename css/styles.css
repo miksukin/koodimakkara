@@ -27,6 +27,26 @@ p{
   font-size: larger;
 }
 
+#boxi p, #boxi h1, #boxi h2 {
+  text-shadow: #1f221f 2px 2px 0px;
+}
+
+.loading::after {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  text-align: left;
+  animation: dots 2s steps(4, end) infinite;
+}
+
+@keyframes dots {
+  0% { content: ""; }
+  25% { content: "."; }
+  50% { content: ".."; }
+  75% { content: "..."; }
+  100% { content: "..."; }
+}
+
 .nav-wrapper {
   background-color: #d67100;
 }
@@ -58,6 +78,30 @@ p{
 
 .sidenav li a {
   color: white;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    background-image: url("/pictures/koodimakkaratausta.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.video-blur-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    z-index: 1;
 }
 
 @media (min-width: 1200px) {
