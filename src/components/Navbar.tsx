@@ -14,9 +14,14 @@ export const Navbar = () => {
     <>
         <nav style={{ backgroundColor: "#d67100" }}>
             <div className="nav-wrapper">
-                <Link to="/" className="brand-logo left" style={{ marginLeft: "10px", left: 0, bottom: 5}}>
+                <Link to="/" className="brand-logo left hide-on-med-and-down" style={{ marginLeft: "10px", left: 0}}>
                     <img src={logo} alt="Koodimakkara Logo" style={{ height: "50px", width: "50px", verticalAlign: "middle" }} />
                 </Link>
+
+                <Link to="/" className="brand-logo center hide-on-med-and-up">
+                    <img src={logo} alt="Koodimakkara Logo" style={{ height: "50px", width: "50px", verticalAlign: "middle" }} />
+                </Link>
+
                 <Link to="#!" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></Link>
                 <ul className="right hide-on-med-and-down">
                     <li><a href="https://discord.com/invite/WuJUQEz">Discord</a></li>

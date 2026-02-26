@@ -1,6 +1,18 @@
-nav {
-  background-color: #d67100;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+.nav-wrapper {
+  background-color: #d67100 !important;
+}
+
+.sidenav {
+  background-color: #d67100 !important;
+  z-index: 9999 !important;
+}
+
+.sidenav li a {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.sidenav li a:hover {
+  color: #bdbdbd;
 }
