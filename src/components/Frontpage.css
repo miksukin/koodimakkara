@@ -1,5 +1,5 @@
 .boxi p, .boxi h1, .boxi h2 {
-  text-shadow: #1f221f 3px 3px 0px;
+  text-shadow: #1f221f 2px 2px 0px;
 }
 
 .loading::after {
