@@ -1,0 +1,6 @@
+nav {
+  background-color: #d67100;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
