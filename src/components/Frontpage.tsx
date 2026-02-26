@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material'
-import React from 'react'
+import bgGif from '../assets/koodimakkaratausta.gif'
 import './Frontpage.css'
 
 
@@ -13,22 +13,13 @@ export const Frontpage = () => {
             width: '100%',
             height: '100%',
             overflow: 'hidden',
-            zIndex: -1,
-            backgroundImage: 'url(/src/assets/koodimakkaratausta.gif)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
+            zIndex: -1
             }}>
-            <Box style={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                width: '100%',
-                height: '100%',
-                backdropFilter: 'blur(10px)',
-                zIndex: -1,
-            }}>
-            </Box>
+                <img src={bgGif} alt="Background" style={{ 
+                    width: '100%', 
+                    height: '100%', 
+                    objectFit: 'cover', 
+                    filter: 'blur(10px)' }} />
         </Box>
 
         <Box className="boxi" sx={{ p: 2, alignContent: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, mt: 10 }}>

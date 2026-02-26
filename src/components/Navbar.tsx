@@ -3,7 +3,6 @@ import M from "materialize-css";
 import { Link } from "react-router-dom";
 import logo from "../assets/koodimakkara_logo.png";
 import "./Navbar.css";
-import Box from "@mui/material/Box";
 
 export const Navbar = () => {
   useEffect(() => {
