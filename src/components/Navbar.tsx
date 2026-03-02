@@ -18,8 +18,6 @@ export const Navbar = () => {
                     <img src={logo} alt="Koodimakkara Logo" style={{ height: "50px", width: "50px", verticalAlign: "middle" }} />
                 </Link>
 
-             
-
                 <Link to="#!" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></Link>
                 <ul className="right hide-on-med-and-down">
                     <li><a href="https://discord.com/invite/WuJUQEz">Discord</a></li>
