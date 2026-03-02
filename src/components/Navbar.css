@@ -16,3 +16,11 @@
 .sidenav li a:hover {
   color: #bdbdbd;
 }
+
+@media only screen and (min-width: 993px) {
+  .brand-logo {
+    left: 0 !important;
+    transform: none !important;
+    margin-left: 10px;
+  }
+}
