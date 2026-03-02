@@ -5,6 +5,10 @@ export const Videopage = () => {
     <>
         <div className="video-div">
             <div className="video-box">
+                <iframe src="https://www.youtube.com/embed/eEt34nVODtE?si=ZVAwq7zPiO07jb6G"></iframe>
+            </div>
+
+            <div className="video-box">
                 <iframe src="https://www.youtube.com/embed/zNv8pTJY_Vg"></iframe>
             </div>
 
