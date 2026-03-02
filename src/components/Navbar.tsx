@@ -14,7 +14,7 @@ export const Navbar = () => {
     <>
         <nav style={{ backgroundColor: "#d67100" }}>
             <div className="nav-wrapper">
-                <Link to="/" className="brand-logo" style={{ marginLeft: "10px"}}>
+                <Link to="/" className="brand-logo">
                     <img src={logo} alt="Koodimakkara Logo" style={{ height: "50px", width: "50px", verticalAlign: "middle" }} />
                 </Link>
 
