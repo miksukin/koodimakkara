@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Frontpage } from './components/Frontpage'
 import { Videopage } from './components/Videopage'
+import { Livepage } from './components/Livepage'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={  <Frontpage /> } />
+          <Route path="/live" element={ <Livepage />} />
           <Route path="/discord" element={<h1>Discord</h1>} />
           <Route path="/fluxer" element={<h1>Fluxer</h1>} />
           <Route path="/minecraft" element={<h1>Minecraft</h1>} />
