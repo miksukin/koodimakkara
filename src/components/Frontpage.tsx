@@ -24,8 +24,9 @@ export const Frontpage = () => {
 
         <Box className="boxi" sx={{ p: 2, alignContent: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, mt: 10 }}>
             <Typography variant="h1" sx={{ color: "#d67100",fontSize: "clamp(3.5rem, 8vw, 6rem)" }}>Koodimakkara</Typography>
-            <Typography variant="body1" sx={{ color: "#fff",  width: {xs: "90%", md: "50%"} }}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</Typography>
+            <Typography variant="body1" sx={{ color: "#fff",  width: {xs: "90%", md: "50%", fontSize: "2vh"} }}>A finnish friend group/gaming community that makes content including streaming, videos and shorts.</Typography>
             <Typography variant="h2" className='loading' sx={{ color: "#d67100", fontSize: "clamp(2.5rem, 8vw, 5rem)"}}>Work in progress</Typography>
+            <Typography variant="body1" sx={{ color: "#fff",  width: {xs: "90%", md: "50%"} }}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</Typography>
         </Box>
     </>
   )
