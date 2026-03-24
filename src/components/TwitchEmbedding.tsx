@@ -13,7 +13,7 @@ const TwitchEmbed: React.FC<TwitchEmbedProps> = ({
 }) => {
     return (
         <iframe
-            src={`https://player.twitch.tv/?channel=${channel}&parent=localhost`}
+            src={`https://player.twitch.tv/?channel=${channel}&parent=koodimakkara.fi`}
             height={height}
             width={width}
             allowFullScreen
