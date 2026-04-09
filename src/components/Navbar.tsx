@@ -22,7 +22,6 @@ export const Navbar = () => {
                 <ul className="right hide-on-med-and-down">
                     <li><a href="https://discord.com/invite/WuJUQEz">Discord</a></li>
                     <li><a href="https://fluxer.gg/HfeyaULe">Fluxer</a></li>
-                    <li><Link to="/">Minecraft</Link></li>
                     <li><Link to="/videos">Videos</Link></li>
                 </ul>
             </div>
@@ -32,7 +31,6 @@ export const Navbar = () => {
             <ul className="sidenav" id="mobile-demo">
                 <li><Link to="https://discord.com/invite/WuJUQEz">Discord</Link></li>
                 <li><Link to="https://fluxer.gg/HfeyaULe">Fluxer</Link></li>
-                <li><Link to="/">Minecraft</Link></li>
                 <li><Link to="/videos">Videos</Link></li>
             </ul>
         </div>
